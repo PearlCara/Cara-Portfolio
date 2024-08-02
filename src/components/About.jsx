@@ -23,7 +23,7 @@ const About = ()=>{
             </div>
             <div className='container mx-auto p-6 min-h-screen'>
                 <h3 className="text-4xl font-bold mb-6 text-center">Hobbies</h3>
-                <div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-around">
+                <div className="grid grid-cols-1 md:grid-cols-1 sm:grid-cols-1 justify-around">
                     <div className="border rounded-lg p-5 m-3">
                         <h1 className="font-semibold text-xl text-gray-600 mb-2 text-center">Painting</h1>  
                         <img className="rounded-sm w-full h-50 object-contain" src='https://www.companionstairlifts.co.uk/media/responsive/responsive-1024/upload/c0/d7/c0d79375047c1b7f0d30dbc3d25a007d7dad4058.jpeg'/>

@@ -1,0 +1,36 @@
+.main-page{
+    border:15px solid #FAFA33;
+    padding: 4px;
+    border-radius: 25px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: default;
+    font-size: larger;
+    color: rgb(154, 23, 80);
+  }
+.tooltip .tooltiptext {
+    visibility: hidden;
+    padding: 0.25em 0.5em;
+    background-color: rgb(116, 14, 90);
+    color: #fff;
+    text-align: center;
+    border-radius: 0.25em;
+    white-space: nowrap;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 100%;
+    transition-property: visibility;
+    transition-delay: 0s;
+  }
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    transition-delay: 0.3s;
+}
+
+
+

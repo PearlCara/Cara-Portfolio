@@ -7,10 +7,10 @@ const About = ()=>{
             <div className='container mx-auto p-6 min-h-screen items-center justify-center text-center'>
                 <h2 className="text-4xl font-bold mb-6 text-center">About me</h2>
                 <div className="flex flex-col items-center md:flex-row md:items-start">
-                    <div className="w-1/2 h-full rounded-md object-contain">
+                    <div className="md:w-1/2 h-full rounded-md object-contain">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKfsUgF_NCHY4foakfygi76_kJfsXkXRvfg&s" alt="Me"/>
                     </div>
-                    <div className=' w-1/2 justify-between mr-3 items-center' >
+                    <div className='md:w-1/2 justify-between mr-3 items-center' >
                         <p className="text-lg">
                         I am sixteen years of age and a highschool student at the moment, having had recently completed my exams. 
                         I enjoy subjects such as Maths and Science. I enjoy teaching and encouraging students to achieve the best they possibly can. 

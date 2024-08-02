@@ -16,7 +16,7 @@ const Skilled= () =>{
                 interact effectively and harmoniously with other people."</span>
             </div>
 
-            <div className="grid grid-cols-4 md:grid-cols-4 sm:grid-cols-1 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 items-center">
                
                 <div class="right-skills">
                     <div className='border rounded-lg p-5 m-3'>
@@ -58,7 +58,7 @@ const Skilled= () =>{
                 perform job-specific tasks."</span>
             </div>
              
-            <div className="grid grid-cols-4 md:grid-cols-4 sm:grid-cols-1 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 items-center">
                 
                 <div class="right-skills">
                     <div className='border rounded-lg p-5 m-3'> 

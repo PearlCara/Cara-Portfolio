@@ -18,8 +18,8 @@ const Experience= () =>{
                         </p>
                     </div>
                     <div className="md:w-1/2 h-full rounded-md object-contain">
-                            <img className='w-full h-auto rounded-lg' src="https://news.csudh.edu/wp-content/uploads/2021/08/bootcamp-feature.jpg" alt="My work"/>
-                            <img className='w-full h-auto rounded-lg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStDaWKSTlZgceBs_UtZTs8ZjjyQIp7v7NNPw&s" alt="My work"/>
+                            <img className='w-full h-auto rounded-xl mb-5' src="https://news.csudh.edu/wp-content/uploads/2021/08/bootcamp-feature.jpg" alt="My work"/>
+                            <img className='w-full h-auto rounded-xl' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStDaWKSTlZgceBs_UtZTs8ZjjyQIp7v7NNPw&s" alt="My work"/>
                     </div>
                 </div>
             </div>

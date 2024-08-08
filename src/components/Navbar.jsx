@@ -22,7 +22,7 @@ const Navbar= () =>{
                     </div>
                 </div>
                 <div className={`md:flex space-x-4 ${isOpen ? "block" : "hidden"}`}>  
-                    <Link className="text-black block md:inline-block" to='/about'>•About me</Link>
+                    <Link className="text-black block md:inline-block" to='/about'>•About </Link>
                     <Link className="text-black block md:inline-block" to='/skilled'>•Skills and Education</Link>
                     <Link className="text-black block md:inline-block" to='/experience'>•Work Experience </Link> 
                     <Link className="text-black block md:inline-block" to='/contact'>•Contact</Link> 

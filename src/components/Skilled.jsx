@@ -16,37 +16,37 @@ const Skilled= () =>{
                 interact effectively and harmoniously with other people."</span>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 gap-6 items-center">
                
-                <div class="right-skills">
-                    <div className='border rounded-lg p-5 m-3'>
+                <div class="right-skills w-full h-full">
+                    <div className='border rounded-lg p-5 m-3 block'>
                         <h2 className="text-xl text-gray-600 mb-2 font-semibold">Adaptability</h2>
-                        <div className='w-full h-50'>
-                            <img className="w-full h-full rounded-md object-cover " src="https://whatfix.com/blog/wp-content/uploads/2021/10/Adaptablity-in-workplace.png" alt="Adaptability"/>
+                        <div>
+                            <img className="w-full h-auto rounded-md object-cover " src="https://whatfix.com/blog/wp-content/uploads/2021/10/Adaptablity-in-workplace.png" alt="Adaptability"/>
                         </div>
                     </div>
                 </div>   
-                <div class="right-skills">
-                    <div className='border rounded-lg p-5 m-3'>
+                <div class="right-skills w-full h-full">
+                    <div className='border rounded-lg p-5 m-3 block'>
                         <h2 className="text-xl text-gray-600 mb-2 font-semibold">Attention to detail</h2>
-                        <div className='w-full h-50'>
-                            <img className="w-full h-full rounded-md object-cover" src="https://www.cmaeurope.org/wp-content/uploads/2021/08/images-webpage-clubhouse-attention-to-detail.jpg" alt="Attention to detail"/>
+                        <div>
+                            <img className="w-full h-auto rounded-md object-cover" src="https://www.cmaeurope.org/wp-content/uploads/2021/08/images-webpage-clubhouse-attention-to-detail.jpg" alt="Attention to detail"/>
                         </div>
                     </div>
                 </div>   
-                <div class="right-skills">
+                <div class="right-skills w-full h-full">
                     <div className='border rounded-lg p-5 m-3'> 
                         <h2 className="text-xl text-gray-600 mb-2 font-semibold">Reliability</h2>
-                        <div className='w-full h-50'>
-                            <img className="w-full h-full rounded-md object-cover" src="https://cdn-icons-png.flaticon.com/512/4371/4371446.png" alt="Reliability"/>
+                        <div>
+                            <img className="w-full h-auto rounded-md object-cover" src="https://cdn-icons-png.flaticon.com/512/4371/4371446.png" alt="Reliability"/>
                         </div>
                     </div> 
                 </div>
-                <div class="right-skills">
+                <div class="right-skills w-full h-full">
                     <div className='border rounded-lg p-5 m-3'> 
                         <h2 className="text-xl text-gray-600 mb-2 font-semibold">Respectfulness</h2> 
-                        <div className='w-full h-50'>  
-                            <img className="w-full h-full rounded-md object-cover" src="https://media.licdn.com/dms/image/C4E12AQF4t6eOySnQnQ/article-cover_image-shrink_600_2000/0/1557665031885?e=2147483647&v=beta&t=HXoUeIUIapFs5E_XjdXI3W1Ae82whbVZen5A4qSSCz8" alt="Respectfulness"/>
+                        <div>  
+                            <img className="w-full h-auto rounded-md object-cover" src="https://media.licdn.com/dms/image/C4E12AQF4t6eOySnQnQ/article-cover_image-shrink_600_2000/0/1557665031885?e=2147483647&v=beta&t=HXoUeIUIapFs5E_XjdXI3W1Ae82whbVZen5A4qSSCz8" alt="Respectfulness"/>
                         </div>
                     </div>
                 </div>
@@ -60,35 +60,35 @@ const Skilled= () =>{
              
             <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 items-center">
                 
-                <div class="right-skills">
+                <div class="right-skills w-full h-full">
                     <div className='border rounded-lg p-5 m-3'> 
                         <h2 className="text-xl text-gray-600 mb-2 font-semibold">Mathematics</h2>
-                        <div className='w-full h-50'>
-                            <img className="w-full h-full rounded-md object-cover" src="https://static.vecteezy.com/system/resources/thumbnails/022/085/877/small_2x/mathematics-doodle-set-education-and-study-concept-school-equipment-maths-formulas-in-sketch-style-hand-drawn-ector-illustration-isolated-on-white-background-vector.jpg" alt="Maths"/>
+                        <div>
+                            <img className="w-full h-auto rounded-md object-cover" src="https://static.vecteezy.com/system/resources/thumbnails/022/085/877/small_2x/mathematics-doodle-set-education-and-study-concept-school-equipment-maths-formulas-in-sketch-style-hand-drawn-ector-illustration-isolated-on-white-background-vector.jpg" alt="Maths"/>
                         </div>
                     </div>
                 </div>
-                <div class="right-skills">
+                <div class="right-skills w-full h-full">
                     <div className='border rounded-lg p-5 m-3'> 
                         <h2 className="text-xl text-gray-600 mb-2 font-semibold">Comparative analysis</h2>
-                        <div className='w-full h-50'>
-                            <img className="w-full h-full rounded-md object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2K3Dt473-k4WXHPWVmXnNEUm8Ad3mncCuBQ&s" alt="Comparative analysis"/> 
+                        <div>
+                            <img className="w-full h-auto rounded-md object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2K3Dt473-k4WXHPWVmXnNEUm8Ad3mncCuBQ&s" alt="Comparative analysis"/> 
                         </div>
                     </div>
                 </div>
-                <div class="right-skills"> 
+                <div class="right-skills w-full h-full"> 
                     <div className='border rounded-lg p-5 m-3'> 
                         <h2 className="text-xl text-gray-600 mb-2 font-semibold">Statistical analysis</h2>
-                        <div className='w-full h-50'>
-                            <img className="w-full h-full rounded-md object-cover" src="https://blog.wyzant.com/wp-content/uploads/2023/09/How-to-Meaningfully-Interpret-Statistical-Analyses.png" alt="Statistical analysis"/>
+                        <div>
+                            <img className="w-full h-auto rounded-md object-cover" src="https://blog.wyzant.com/wp-content/uploads/2023/09/How-to-Meaningfully-Interpret-Statistical-Analyses.png" alt="Statistical analysis"/>
                         </div>
                     </div>
                 </div>
-                <div class="right-skills">
+                <div class="right-skills w-full h-full">
                     <div className='border rounded-lg p-5 m-3'> 
                         <h2 className="text-xl text-gray-600 mb-2 font-semibold">Data analysis</h2>  
-                        <div className='w-full h-50'>
-                            <img className="w-full h-full rounded-md object-cover" src="https://images.spiceworks.com/wp-content/uploads/2022/09/14132828/A-pair-of-data-analysts-working-on-a-data-analysis-flowchart.jpg" alt="Data analysis"/> 
+                        <div>
+                            <img className="w-full h-auto rounded-md object-cover" src="https://images.spiceworks.com/wp-content/uploads/2022/09/14132828/A-pair-of-data-analysts-working-on-a-data-analysis-flowchart.jpg" alt="Data analysis"/> 
                         </div>
                     </div>
                 </div>

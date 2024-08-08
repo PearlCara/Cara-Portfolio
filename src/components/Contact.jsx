@@ -2,6 +2,7 @@ import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { db } from '../firebaseConfig';
 import { collection, addDoc } from 'firebase/firestore';
+import Navbar from './Navbar';
 
 const Contact = () => {
     const [name, setName] = useState('');
@@ -45,6 +46,8 @@ const Contact = () => {
     };
 
     return (
+        <div>
+        <Navbar/>
         <div className="container mx-auto p-6 min-h-screen flex items-center justify-center">
             <div className="bg-gray-100 p-6 rounded-lg shadow-md w-full md:w-1/2">
                 <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">Contact Me</h1>
@@ -78,9 +81,10 @@ const Contact = () => {
                             required
                         />
                     </div>
-                    <button type="submit" className="bg-blue-500 text-white p-2 rounded-md">Send Message</button>
+                    <button type="submit" className="shadow-md rounded-md hover:bg-gray-300 p-2 font-semibold text-xl">Send Message</button>
                 </form>
             </div>
+        </div>
         </div>
     );
 }
